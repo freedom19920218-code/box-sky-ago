@@ -23,7 +23,7 @@ const UUID = process.env.UUID || (() => {
   const h=b.toString('hex'); 
   return `${h.slice(0,8)}-${h.slice(8,12)}-${h.slice(12,16)}-${h.slice(16,20)}-${h.slice(20)}`; 
 })();
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'sgge.gerat.us.ci';
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'md5.gerat.cc.cd';
 const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiNmI5MGYyNWIzOGFlYTM3MzExODE3OTRjOTliYzgxOGYiLCJ0IjoiNjY4YTVlOWQtNjYzMC00Zjc4LTljYmEtYjlmYmVkZmQyOTkwIiwicyI6IlpEazVOV05rTURrdFpqUTJOUzAwT0RrNExXSm1OV010TlRkaFkySm1ZMk5qT0dSayJ9';
 const ARGO_PORT = process.env.ARGO_PORT || 10086;
 const CFIP = process.env.CFIP || 'saas.sin.fan';
