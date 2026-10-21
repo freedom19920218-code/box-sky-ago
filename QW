@@ -24,7 +24,7 @@ const UUID = process.env.UUID || (() => {
   return `${h.slice(0,8)}-${h.slice(8,12)}-${h.slice(12,16)}-${h.slice(16,20)}-${h.slice(20)}`; 
 })();
 const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'sgge.gerat.us.ci';
-const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiNmI5MGYyNWIzOGFlYTM3MzExODE3OTRjOTliYzgxOGYiLCJ0IjoiOGU2YzBkOTMtYWE1Ni00MGU5LWE3NzgtYTZjZGU2OGYzMDRhIiwicyI6Ik56WmtZVGd3WkRVdE9EUmlNUzAwTkRoa0xXSTBPRGd0WWpSbU9XSTFaVFU1WVdSbSJ9';
+const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiNmI5MGYyNWIzOGFlYTM3MzExODE3OTRjOTliYzgxOGYiLCJ0IjoiNjY4YTVlOWQtNjYzMC00Zjc4LTljYmEtYjlmYmVkZmQyOTkwIiwicyI6IlpEazVOV05rTURrdFpqUTJOUzAwT0RrNExXSm1OV010TlRkaFkySm1ZMk5qT0dSayJ9';
 const ARGO_PORT = process.env.ARGO_PORT || 10086;
 const CFIP = process.env.CFIP || 'saas.sin.fan';
 const CFPORT = process.env.CFPORT || 443;
